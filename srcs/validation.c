@@ -6,13 +6,13 @@
 /*   By: iha <iha@student.42.kr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/26 02:51:39 by iha               #+#    #+#             */
-/*   Updated: 2022/02/26 02:51:40 by iha              ###   ########.fr       */
+/*   Updated: 2022/02/26 02:58:38 by iha              ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "so_long.h"
 
-static void	line_valid(t_solong *sl,t_map *map_info, char *line)
+static void	line_valid(t_solong *sl, t_map *map_info, char *line)
 {
 	int	idx;
 
@@ -76,7 +76,7 @@ void	map_valid(t_solong *sl, t_map *map_info)
 
 void 	file_valid(t_solong *sl, char *fileName)
 {
-	char*	temp;
+	char	*temp;
 
 	temp = ft_strrchr(fileName, '.');
 	if (ft_strncmp(temp, ".ber", 4) != 0)

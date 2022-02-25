@@ -6,17 +6,16 @@
 /*   By: iha <iha@student.42.kr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/26 02:51:02 by iha               #+#    #+#             */
-/*   Updated: 2022/02/26 02:51:03 by iha              ###   ########.fr       */
+/*   Updated: 2022/02/26 03:00:27 by iha              ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-
 #include "so_long.h"
 
-int main(int argc, char** argv)
+int	main(int argc, char **argv)
 {
 	t_solong	sl;
-	
+
 	if (argc != 2)
 		return (-1);
 	init(&sl);

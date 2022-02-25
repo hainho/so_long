@@ -6,7 +6,7 @@
 /*   By: iha <iha@student.42.kr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/26 02:51:23 by iha               #+#    #+#             */
-/*   Updated: 2022/02/26 02:51:23 by iha              ###   ########.fr       */
+/*   Updated: 2022/02/26 02:59:25 by iha              ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -82,7 +82,7 @@ void	set_map(t_solong *sl, char *fileName)
 	fd = open(fileName, O_RDONLY);
 	if (fd == -1)
 		error_exit(sl, "map_fileopen fail at set_map");
-	sl->map_info.map = malloc(sizeof(char*) * (sl->map_info.c + 1));
+	sl->map_info.map = malloc(sizeof(char *) * (sl->map_info.c + 1));
 	idx = 0;
 	while (idx < sl->map_info.c)
 		sl->map_info.map[idx++] = get_row(fd);
