@@ -6,7 +6,7 @@
 /*   By: iha <iha@student.42.kr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/26 02:51:29 by iha               #+#    #+#             */
-/*   Updated: 2022/02/26 03:03:10 by iha              ###   ########.fr       */
+/*   Updated: 2022/02/26 03:04:13 by iha              ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -69,7 +69,7 @@ typedef struct s_solong
 }	t_solong;
 
 void	map_valid(t_solong *sl, t_map *map_info);
-void 	file_valid(t_solong *sl, char *fileName);
+void	file_valid(t_solong *sl, char *fileName);
 void	set_map(t_solong *sl, char *fileName);
 void	set_win(t_solong *sl);
 void	set_img(t_solong *sl);

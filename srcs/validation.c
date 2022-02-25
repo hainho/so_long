@@ -6,7 +6,7 @@
 /*   By: iha <iha@student.42.kr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/26 02:51:39 by iha               #+#    #+#             */
-/*   Updated: 2022/02/26 03:02:52 by iha              ###   ########.fr       */
+/*   Updated: 2022/02/26 03:03:56 by iha              ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -74,7 +74,7 @@ void	map_valid(t_solong *sl, t_map *map_info)
 	return ;
 }
 
-void 	file_valid(t_solong *sl, char *fileName)
+void	file_valid(t_solong *sl, char *fileName)
 {
 	char	*temp;
 
