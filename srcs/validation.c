@@ -6,7 +6,7 @@
 /*   By: iha <iha@student.42.kr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/26 02:51:39 by iha               #+#    #+#             */
-/*   Updated: 2022/02/26 02:58:38 by iha              ###   ########.fr       */
+/*   Updated: 2022/02/26 03:02:52 by iha              ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,9 +23,9 @@ static void	line_valid(t_solong *sl, t_map *map_info, char *line)
 		{
 		}
 		else if (line[idx] == 'P')
-			map_info->p_num++;		
+			map_info->p_num++;
 		else if (line[idx] == 'C')
-			map_info->c_num++;		
+			map_info->c_num++;
 		else if (line[idx] == 'E')
 			map_info->e_num++;
 		else
